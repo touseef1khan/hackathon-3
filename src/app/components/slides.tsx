@@ -1,9 +1,10 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-export default function () {
+export default function slides() {
   return (
     <>
+  
       <div className="flex slideSection bg-[#FCF8F3] mt-28 pl-32 gap-10">
 
             <div className="slideText mt-52 ml-20 mr-10">

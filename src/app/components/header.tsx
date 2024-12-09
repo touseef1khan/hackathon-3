@@ -21,7 +21,7 @@ export default function Navbar() {
           <h2 className="cursor-pointer font-bold">Blog</h2>
           <h2 className="cursor-pointer font-bold">Contact</h2>
         </div>
-
+        
         {/* Vector Icons */}
         <div className="flex ml-auto gap-[40px]">
           <div className="w-[28px] h-[28px]">
