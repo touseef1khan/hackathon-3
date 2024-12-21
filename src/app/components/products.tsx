@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Products(){
 
     interface Card{
@@ -77,11 +79,12 @@ export default function Products(){
                 {data.map((card, index) => (
               
                 <div className="card" key={index} style={{ width: "15rem" }}>
-                    <img
+                    <Image
+                    width={100}
+                    height={100}
                     src={card.image}
-                    style={{ width: "18rem", height: "18rem" }}
-                    className="card-img-top"
-                    //   alt={card.title}
+                    className="card-img-top w-[18rem] h-[18rem]"
+                  alt="hello"
                     />
 
                     <div className="card-body text-left pl-2 bg-gray-100">
